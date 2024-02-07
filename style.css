@@ -1,0 +1,9 @@
+h1 {
+  text-align: center;
+  color:#f2010b;
+
+}
+li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between items */
+}
