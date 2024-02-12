@@ -1,16 +1,17 @@
-
-// Function to toggle overlay visibility
-function toggleOverlay() {
-  var overlay = document.getElementById("overlay");
- overlay.style.display = overlay.style.display === "block" ? "none" : "block";
- }
-  
-  // Function to activate search
-function activateSearch() {
-  var overlay = document.getElementById("overlay");
- overlay.style.display = "block";
-}
-
-
-
+function search() {
+  let filter = document.getElementById('find').value.toUpperCase();
+  let item = document.querySelectorAll('.course-box');
+  let l = document.getElementsByTagName('h2');
+  for(var i = 0;i<=l.length;i++){
+  let a=item[i].getElementsByTagName('h2')[0];
+  let value=a.innerHTML || a.innerText || a.textContent;
+  if(value.toUpperCase().indexOf(filter) > -1) {
+  item[i].style.display="";
+  }
+  else
+  {
+  item[i].style.display="none";
+  }
+  }
+  }
 

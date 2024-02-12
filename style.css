@@ -157,3 +157,83 @@ color : #2f3640;
   padding: 0 6px;
 }
 }
+
+
+
+
+  /*----*/
+  *
+  {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  }
+  body
+  {
+  background: #ddd;
+  }
+  .container-fluid
+  {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 80px 0px;
+  }
+ 
+  .container .search
+  {
+  display: flex;
+  padding: 30px 0px;
+  justify-content: space-between;
+  }
+  .container .search h1
+  {
+  letter-spacing: 3px;
+  display: inline-block;
+  border-bottom: 2px solid #f2010b;
+  padding-bottom: 10px;
+  }
+  .container .search input
+  {
+  width: 60%;
+  padding: 5px 5px;
+  background:#c73939;
+  color: antiquewhite;
+  border: 1px solid #000;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  outline: none;
+  margin: 0 auto;
+  text-align: center;
+  }
+  .container .search input::placeholder
+  {
+  color:antiquewhite;
+  font-weight: 300;
+  text-align: center;
+  }
+  .container .allcourses
+  {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+  }
+  .container .allcourses.course-box
+  {
+  margin-top: 30px;
+  }
+  .container .allcourses .course-box h3
+  {
+  padding-top: 5px;
+  letter-spacing: 2px;
+  font-size: 22px;
+  font-weight: 400;
+  }
+  .container .allcourses .course-box h4
+  {
+  padding: 3px 0px;
+  color: #48a809;
+  font-weight: 700;
+  letter-spacing: 3px;
+  }

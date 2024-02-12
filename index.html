@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Search Bar with Dimming Effect</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+ 
 </head>
 
 <body>
@@ -37,21 +37,23 @@
 
   </center>
 -->
-<div class="searchBox">
 
-  <input class="searchInput"type="text" name="" placeholder="Search">
-  <button class="searchButton" href="#">
-      <i class="material-icons">
-        <!-- <img src="search.png">-->
-        Go
-      </i>
-  </button>
-</div>
+<div class="container-fluid">
+ 
+  <div class="container">
+
+  <div class="search">
+  
+  <input type="text" name="" id="find" placeholder="search here...." onkeyup="search()" >
+
+  </div>
 
 <header>
     <h1>Pure Mathematics</h1>
 </header>
+
   <main>
+    <div class="allcourses">
     <!-- PURE MATHE SUBJECTS -->
     <div class="course-box">
       <img src="subjectimages/calculus1.jpg" alt="Course 1 Image">
@@ -210,167 +212,171 @@
     <!-- Add more course boxes as needed -->
   </main>
 
+  <header>
+    <h1> Physics & Applied Mathematics</h1>
+  </header>
+  <main>
+    <div class="allcourses">
+    <div class="course-box">
+      <img src="subjectimages/projmo.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Projectile Motion</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/STOR.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Theory of Special Relativity</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/QM1.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Quantum Mechanics 1</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/AD.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Analytical Dynamics</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/Planetary Motion.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Planetary Motion</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/vectors.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Vector Calculus and Vector Analysis</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/FD1.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Fluid Dynamics 1</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/FD2.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Fluid Dynamics 2</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/const.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Constrained Motion</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/ED.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Electrodynamics</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/SM.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Statistical Mechanics</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/QM2.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Quantum Mechanics 2</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/RQM.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Relativistic Quantum Mechanics</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/AED.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Areodynamics</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/SHM.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Simple Harmonic Motion</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/newton.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Newton's Law of Motion and Applications</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/energy.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Work, Power and Energy Principles</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/IC.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Impuls and Collision</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
+    <div class="course-box">
+      <img src="subjectimages/RBD.jpg" alt="Course 1 Image">
+      <div class="course-details">
+        <h2>Course : Rigid Body Dynamics</h2>
+        <p>An introduction to algebraic concepts.</p>
+        <span class="enroll-button">Open</span>
+      </div>
+    </div>
 
-<header>
-  <h1> Physics & Applied Mathematics</h1>
-</header>
-<main>
-  <div class="course-box">
-    <img src="subjectimages/projmo.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Projectile Motion</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/STOR.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Theory of Special Relativity</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/QM1.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Quantum Mechanics 1</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/AD.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Analytical Dynamics</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/Planetary Motion.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Planetary Motion</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/vectors.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Vector Calculus and Vector Analysis</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/FD1.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Fluid Dynamics 1</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/FD2.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Fluid Dynamics 2</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/const.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Constrained Motion</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/ED.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Electrodynamics</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/SM.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Statistical Mechanics</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/QM2.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Quantum Mechanics 2</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/RQM.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Relativistic Quantum Mechanics</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/AED.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Areodynamics</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/SHM.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Simple Harmonic Motion</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/newton.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Newton's Law of Motion and Applications</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/energy.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Work, Power and Energy Principles</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/IC.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Impuls and Collision</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  <div class="course-box">
-    <img src="subjectimages/RBD.jpg" alt="Course 1 Image">
-    <div class="course-details">
-      <h2>Course : Rigid Body Dynamics</h2>
-      <p>An introduction to algebraic concepts.</p>
-      <span class="enroll-button">Open</span>
-    </div>
-  </div>
-  
 
+</div>
+</div>
+</div> 
 </main>
 
+<script src="script.js"></script>
 </body>
 
 </html>
