@@ -52,10 +52,11 @@ main {
 #header-image-menu{
   top: 10px;
   position: relative;
+  justify-content: center;
 }
 
 #header-image-menu img{
-  width: 100%;
+  width: 50%;
   margin: none;
   padding: none;
 }
@@ -368,12 +369,12 @@ color : #2f3640;
   @import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
   button.neumorphic {
     container-type: inline-size;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/0.5;
     border: 0.5rem solid transparent;
     border-radius: 1rem;
     color: hsl(0 0% 10%);
     background: none;
-  background-color:#3cc1f9c5;
+  background-color:#f9d729;
     display: grid;
     place-content: center;
     gap: 1rem;
@@ -404,8 +405,8 @@ color : #2f3640;
       font-size: 31cqi;
     }
     > span {
-      font-family: system-ui, sans-serif;
-      font-size: 16cqi;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 13cqi;
     }
   }
   
@@ -422,7 +423,7 @@ justify-content: center;
   }
   .buttons {
     display: grid;
-    width: min(50rem, 100%);
+    width: min(40rem, 100%);
     margin-inline: auto;
     grid-template-columns: repeat(auto-fit, minmax(min(8rem, 100%), 1fr));
     gap: 2rem;
